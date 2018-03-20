@@ -1,0 +1,27 @@
+port: 8080
+enableurlsource: false
+profiles:
+    resize-small:
+        ops: resize
+        width: 160
+        height: 240
+    resize-medium:
+        ops: resize
+        width: 320
+        height: 480
+    resize-large:
+        ops: resize
+        width: 640
+        height: 960
+    rotate-90:
+        ops: rotate
+        rotate: 90
+        width: 642
+        height: 960
+    crop-half:
+        ops: crop
+        width: 100
+        height: 480
+    thumbnail-small:
+        ops: thumbnail
+        width: 120
